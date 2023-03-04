@@ -1,0 +1,79 @@
+/* Age Calculator */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:auto;
+  background-color: #ffb5a7 /*#ffafcc*/;
+}
+
+.age-calculator {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px #e70e0e78;
+  background-color: #fcd5ce /*ffc8dd*/;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls input {
+  padding:10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+.controls input:focus{
+     outline:0;
+}
+.controls button {
+  padding:10px 20px;
+  border-radius: 5px;
+  background: #fec89a /*cdb4db*/;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-left: 5px;
+}
+.controls button:focus{
+     outline:0;
+}
+.result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.birthdate {
+  font-size: 22px;
+}
+
+.age {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.wishing {
+  font-size: 40px;
+  color: #4a171e;
+  font-weight: bold;
+  margin-top: 40px;
+}
